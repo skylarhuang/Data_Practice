@@ -1,6 +1,6 @@
 class ListNode(object):
-	def __init__(self, x):
-		self.val = x
+	def __init__(self, vava):
+		self.val = vava
 		self.next = None
 
 
@@ -14,22 +14,32 @@ b.next = c
 c.next = d
 d.next = None
 
-
 def reverse(head):
-	if head == None:
-		return None
-	elif head.next == None:
-		return head
-	else:
-		prev_node = None
-		next_node = None
-		curr_node = head
-		if curr_node != None:
-			next_node = curr_node.next
-			curr_node.next = prev_node
-			prev_node = curr_node
-			curr_node = next_node
-			return curr_node
+	curr_node = head
+	prev_node = None
+	next_node = None
 
+	while curr_node != None:
+		next_node = curr_node.next
+		curr_node.next = prev_node
+		prev_node = curr_node
+		curr_node = next_node
 
-reverse(a)
+	return prev_node
+
+def reverse2(curr_node, prev_node=None):
+  next_node = curr_node.next
+  curr_node.next = prev_node
+  if next_node == None:
+    return curr_node
+  else:
+    return(reverse2(next_node, curr_node))
+
+def printlink(prin):
+  while prin:
+    print(prin.val)
+    prin=prin.next
+
+x = reverse2(a)
+printlink(x)
+
