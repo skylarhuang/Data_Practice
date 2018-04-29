@@ -35,11 +35,21 @@ def reverse2(curr_node, prev_node=None):
   else:
     return(reverse2(next_node, curr_node))
 
+def reverse3(head):
+  curr_node = prev_node = head
+  while curr_node.next:
+    prev_node = curr_node
+    curr_node = curr_node.next
+  curr_node.next = prev_node
+  prev_node.next = None
+  if curr_node != head:
+    prev_node = reverse3(head)
+  return curr_node
+
 def printlink(prin):
   while prin:
     print(prin.val)
     prin=prin.next
 
-x = reverse2(a)
+x = reverse3(a)
 printlink(x)
-
