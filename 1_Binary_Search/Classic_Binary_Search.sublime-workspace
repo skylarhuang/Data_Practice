@@ -8,24 +8,11 @@
 	"buffers":
 	[
 		{
-			"contents": "for i in range(5):\n\tprint(i)\n\t",
-			"file": "/C/Users/Sui/Desktop/hi",
-			"file_size": 32,
-			"file_write_time": 131738175161979077,
+			"file": "/C/Users/Sui/Desktop/Github/Data_Practice/3_LinkedList/reverse_linkedlist.py",
 			"settings":
 			{
-				"buffer_size": 30,
-				"line_ending": "Windows",
-				"name": "for i in range(5):"
-			}
-		},
-		{
-			"file": "/C/Program Files (x86)/Fox/Croc 2/Croc2.exe",
-			"settings":
-			{
-				"buffer_size": 1935360,
-				"encoding": "Hexadecimal",
-				"line_ending": "Unix"
+				"buffer_size": 1084,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -61,6 +48,9 @@
 	},
 	"file_history":
 	[
+		"/D/软件/temp.html",
+		"/C/Users/Sui/Desktop/hi",
+		"/C/Program Files (x86)/Fox/Croc 2/Croc2.exe",
 		"/C/Users/Sui/AppData/Local/VirtualStore/Program Files (x86)/Fox/Croc 2/slots.crd",
 		"/C/Program Files (x86)/Fox/Croc 2/autorun.exe",
 		"/C/Users/Sui/Desktop/Github/Data_Practice/3_LinkedList/merge_two_linked_list.py"
@@ -99,61 +89,34 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Sui/Desktop/hi",
+					"file": "/C/Users/Sui/Desktop/Github/Data_Practice/3_LinkedList/reverse_linkedlist.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30,
+						"buffer_size": 1084,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								30,
-								30
+								102,
+								102
 							]
 						],
 						"settings":
 						{
-							"auto_name": "for i in range(5):",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Program Files (x86)/Fox/Croc 2/Croc2.exe",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1935360,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								519,
-								519
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 10851.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
