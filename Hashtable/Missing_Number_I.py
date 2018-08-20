@@ -1,6 +1,5 @@
 array1 = [12, 11, 10, 9, 4, 5, 6, 7, 2, 3, 8]
 
-
 def missing(array):
     myDict = {}
     for i in range(len(array) + 1):
@@ -15,6 +14,7 @@ def missing(array):
             miss = k
     return miss
 
-
 x = missing(array1)
 print(x)
+
+# Answer is 1
