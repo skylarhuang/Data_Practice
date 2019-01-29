@@ -1,26 +1,18 @@
 class Solution(object):
-  def isValid(self, s):
-    """
+    def isValid(self, s):
+        """
     input: string s
     return: boolean
     """
-    # write your solution here
-    l = []
-    
-    for si in range(len(s)):
-      if s[si] in '([{':
-        l.append(s[si])
-      elif s[si] == ')':
-        if l==None or l.pop()!='(':
-          return False
-      elif s[si] == ']':
-        if l==None or l.pop()!='[':
-          return False        
-      elif s[si] == '}':
-        if l==None or l.pop()!='{':
-          return False        
-    
-    if len(l) != 0:
-      return False
-    else:
-      return True
+        # write your solution here
+        res = []
+        match = {'(': ')', '{': '}', '[': ']'}
+
+        for ss in s:
+            if ss in match:
+                res.append(ss)
+            elif not res or match[res[-1]] != ss:
+                return False
+            else:
+                res.pop()
+        return True

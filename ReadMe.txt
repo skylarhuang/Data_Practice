@@ -23,12 +23,16 @@ Python Codes for Practice
 	Number of Nodes in LinkedList
 
 4. Queue and Stack
+	Valid Parenthese
 
 5. Tree
 	In-order Traversal Of Binary Tree	
 	Pre-order Traversal Of Binary Tree	
 	Post-order Traversal Of Binary Tree	
 	Check If Binary Tree Is Balanced	
+	Invert Binary Tree
+	Symmetric Binary Tree
+	Is Binary Tree Or Not
 
 6. Heap
 
@@ -37,12 +41,14 @@ Python Codes for Practice
 	Remove Certain Characters
 	Reverse String
 	Valid Palindrome
+	Reverse Words In A Sentence II
 
 8. Recursion DFS
 	Fibonacci Number
 	Reverse LinkedList
 
 9. Probability, Sampling, Randomization
+	Random7 Using Random5	
 
 10. Graph Search Algorithm
 
